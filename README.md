@@ -1,19 +1,19 @@
-Here is a ready-to-use README.md for your cgpa_calculator.cpp file.
+   `Here is a ready-to-use README.md for your cgpa_calculator.cpp file.
 ​
 ​
 
 text
 # CGPA Calculator (C++)
 
-A simple **console** application in C++ that calculates a student's Cumulative Grade Point Average (CGPA) based on subject grades and their corresponding credits. [file:21][web:6]
+A simple **console** application in C++ that calculates a student's Cumulative Grade Point Average (CGPA) based on subject grades and their corresponding credits. 
 
 ## Features
 
-- Accepts the number of subjects from the user. [file:21]
+- Accepts the number of subjects from the user.
 - Takes grade and credit for each subject as input.
-- Calculates total grade points and total credits. [file:21]
+- Calculates total grade points and total credits.
 - Computes and displays the final CGPA.
-- Prints each subject’s grade and credit details along with a final congratulatory message. [file:21]
+- Prints each subject’s grade and credit details along with a final congratulatory message.
 
 ## How It Works
 
@@ -23,15 +23,14 @@ A simple **console** application in C++ that calculates a student's Cumulative G
    - User enters the credit for that subject (e.g., 3 or 4).  
 3. The program multiplies grade × credit for each subject and sums them up.  
 4. CGPA is calculated as:  
-   \[
-   \text{CGPA} = \frac{\text{Total Grade Points}}{\text{Total Credits}}
-   \]  
-5. The program displays the CGPA and a congratulatory message. [file:21]
+   text{CGPA} = {Total Grade Point}{Total Credits}
+ 
+5. The program displays the CGPA and a congratulatory message.
 
 ## Requirements
 
-- C++ compiler supporting basic STL (e.g., `g++`, `clang++`). [web:6]
-- Standard Template Library `vector` header (used in the program). [file:21]
+- C++ compiler supporting basic STL (e.g., `g++`, `clang++`).
+- Standard Template Library `vector` header (used in the program).
 
 ## Compilation and Execution
 
